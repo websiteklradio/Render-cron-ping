@@ -10,4 +10,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Ping Render backend
-        run: curl -fsS https://backend-mbht.onrender.com/api/public/announcements > /dev/null
+        run: curl -fsS https://backend-mbht.onrender.com > /dev/null
